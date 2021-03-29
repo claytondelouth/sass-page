@@ -1,0 +1,27 @@
+$brandcolor:#9d954a; 
+
+$ctacolor:white;
+    
+
+@mixin horizontal-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+h1,h2 {
+    color: $brandcolor;
+}
+
+
+
+
+.call-to-action {
+    background-color: $brandcolor;
+    color: hsl(0, 100%, 50%);
+}
